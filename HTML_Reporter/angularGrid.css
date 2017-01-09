@@ -1,0 +1,15 @@
+:root {
+    --table-width: 1200px;
+    --table-height: auto;
+}
+
+.myGrid {
+    width: var(--table-width);
+    height: var(--table-height);
+}
+
+.gridDiv {
+    position: absolute;
+    padding-left: 15em;
+    height: var(--table-height);
+}
