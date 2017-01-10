@@ -34,6 +34,7 @@ public class NewPage extends Element
 	 * @param landingPage - is this a landing page
 	 * @param scripts - the js scripts to include in this html
 	 * @param stylesheets - the css style sheets to include in this html
+	 * @param angularAppName - the name of this whole page angular app (entered into body tag)
 	 */
 	public NewPage(boolean landingPage, String pageTitle, String[] scripts, String[] stylesheets, String angularAppName)
 	{
@@ -53,6 +54,43 @@ public class NewPage extends Element
 		}
 		
 		String header = "<html><body ng-app=\"" + angularAppName + "\"><head><title>" + pageTitle + "</title>" + jsScripts + cssStyle + "</head>";
+		String backbutton = new Div("aligner", new Div("backbutton", new Button("Back ", "overview.html", "button"))).getString();
+		
+		if (landingPage)
+		{
+			returnValue = opening + header;
+		}
+		else
+		{
+			returnValue = opening + header + backbutton;
+		}
+		this.element = returnValue;
+	}
+	
+	/**
+	 * Constructor
+	 * @param landingPage - is this a landing page
+	 * @param scripts - the js scripts to include in this html
+	 * @param stylesheets - the css style sheets to include in this html
+	 */
+	public NewPage(boolean landingPage, String pageTitle, String[] scripts, String[] stylesheets)
+	{
+		String returnValue;
+		String opening = "<!DOCTYPE html>"; // HTML 5 DOCTYPE declaration
+		String jsScripts = "";
+		String cssStyle = "";
+		
+		for (String s : scripts)
+		{
+			jsScripts += s + " ";
+		}
+		
+		for (String s : stylesheets)
+		{
+			cssStyle += s + " ";
+		}
+		
+		String header = "<html>\n<body>\n<head>\n<title>" + pageTitle + "</title>\n" + jsScripts + "\n" + cssStyle + "\n</head>";
 		String backbutton = new Div("aligner", new Div("backbutton", new Button("Back ", "overview.html", "button"))).getString();
 		
 		if (landingPage)

@@ -78,7 +78,7 @@ public class HtmlBuilder
 		
 		// Write a page with some angular components -> uigrid components
 		String[] scripts = {
-				"<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js\"></script>",
+				"<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js\"></script>",
 				"<script src=\"http://ui-grid.info/release/ui-grid.js\"></script>",
 				"<script src=\"angularGrid.js\"></script>"
 		};
@@ -89,23 +89,25 @@ public class HtmlBuilder
 		};
 		
 		
-		page = new Page("PV_Valid", new NewPage(false, "CPPIB DTAF PV Report", scripts, style, "uigridApp"));
+		page = new Page("PV_Valid", new NewPage(false, "CPPIB DTAF PV Report", scripts, style));
 		
 		page.addChild(new Div("title", new Heading("PV", "h1")));
 		page.addChild(new Div("version", new Heading("Abacus Version 2.6.0 UAT Release", "h2")));
-		page.addChild(new Div("businessdate", new Heading("December 20th, 2016", "h3")));
-		
+		page.addChild(new Div("businessdate", new Heading("January 10th, 2017", "h3")));
 		page.addChild(new Div("heading", new Heading("AngularJS UI Grid Example", "h2")));
 		
 		String[] directives = {
-				"ui-grid-pagination"
+				"ui-grid-pagination",
+				"ui-grid-selection",
+				"ui-grid-cellNav"
 		};
 		
 		List<Element> tables = new ArrayList<Element>();
-		tables.add(new Div("space", new UiGridDiv("firstTable", "table-1", directives)));
-		tables.add(new Div("space", new UiGridDiv("secondTable", "table-2", directives)));
+		tables.add(new Div("space", new UiGridDiv("firstTable", "table-1", directives, "firstTableElementWasClicked()")));
+		tables.add(new Div("space", new UiGridDiv("showSecondTable", "secondTable", "table-2", directives, "secondTableWasClicked()")));
+		tables.add(new Div("space", new UiGridDiv("showThirdTable", "thirdTable", "table-3", directives)));
 		
-		page.addChild(new UiGridDiv("uigridCtrl", "tables", tables));
+		page.addChild(new AngularDiv("uigridApp", new UiGridDiv("uigridCtrl", "tables", tables)));
 		
 		page.closePage();
 		

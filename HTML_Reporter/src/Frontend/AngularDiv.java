@@ -36,6 +36,16 @@ public class AngularDiv extends Element
 	}
 	
 	/**
+	 * Constructor
+	 * @param appName - The app contained by this div (For angularJS)
+	 * @param controller - The controller of this app (For AngularJS)
+	 */
+	public AngularDiv(String appName, Element element)
+	{
+		this.element = "<div ng-app=" + "\"" + appName + "\" " + element.getString() + "</div>";
+	}
+	
+	/**
 	 * Returns the child HTMLMap
 	 * @return children - The child HTMLMap of Element
 	 */

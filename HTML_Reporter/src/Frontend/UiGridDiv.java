@@ -39,6 +39,36 @@ public class UiGridDiv extends Element
 		this.element = "<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\"></div>";
 	}
 	
+	public UiGridDiv(String showVariableName, String uiGridName, String divClass, String[] directives, String onClickMethodName)
+	{
+		String dirs = "";
+		for (String d : directives)
+		{
+			dirs += d + " ";
+		}
+		this.element = "<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>";
+	}
+	
+	public UiGridDiv(String uiGridName, String divClass, String[] directives, String onClickMethodName)
+	{
+		String dirs = "";
+		for (String d : directives)
+		{
+			dirs += d + " ";
+		}
+		this.element = "<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>";
+	}
+	
+	public UiGridDiv(String showVariableName, String uiGridName, String divClass, String[] directives)
+	{
+		String dirs = "";
+		for (String d : directives)
+		{
+			dirs += d + " ";
+		}
+		this.element = "<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\"></div>";
+	}
+	
 	/**
 	 * Returns the child HTMLMap
 	 * @return children - The child HTMLMap of Element

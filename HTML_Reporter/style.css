@@ -160,7 +160,7 @@ Uses:
 	-Angular Styles
  */
 
-.table-1, .table-2 {
+.table-1, .table-2, .table-3 {
     width: var(--table-width);
     height: var(--table-height);
 	background-color: var(--table-background-colour);
