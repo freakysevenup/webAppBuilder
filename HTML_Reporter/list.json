@@ -1,25 +1,52 @@
-[
-        { "Department": "Nickole Milne",        "Value": 34,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Addie Moretti",        "Value": 24,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Cleora Lasala",        "Value": 56,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Rosann Rotondo",       "Value": 33,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Carmelo Sterner",      "Value": 28,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Joey McNamara",        "Value": 42,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Branden Madrigal",     "Value": 37,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Mary Bobcageon",       "Value": 97,        "Diff": 4500,     "DiffPercent": 1000 },
-        { "Department": "Spencer Grant",        "Value": 12,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Agustin Condra",       "Value": 38,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Adelaida Leeks",       "Value": 49,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Concepcion Fender",    "Value": 67,        "Diff": 6700,     "DiffPercent": 220 },
-        { "Department": "Shaunta Bova",         "Value": 18,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Miguel Chickering",    "Value": 49,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Elliott Mailloux",     "Value": 42,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Deangelo Meachum",     "Value": 35,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Danyelle Coil",        "Value": 22,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Bryanna Neubauer",     "Value": 15,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Sharan Faught",        "Value": 84,        "Diff": 15000,    "DiffPercent": 10000 },
-        { "Department": "Nereida Mcnulty",      "Value": 72,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Ahmed Runyon",         "Value": 64,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Debby Douville",       "Value": 79,        "Diff": 0,        "DiffPercent": 0 },
-        { "Department": "Stephine Robinett",    "Value": 81,        "Diff": 0,        "DiffPercent": 0 }
-]
+{
+       "ColumnDefs": [
+                { "Field": "Column1Name",       "DisplayValue": "Department" },
+                { "Field": "Column2Name",       "DisplayValue": "Value" }
+        ],
+
+       "Data": [
+                { "Column1Name": "Nickole Milne",        "Column2Name": 34,        "Column3Name": 0,        "Column4Name": 0 },
+                { "Column1Name": "Addie Moretti",        "Column2Name": 24,        "Column3Name": 0,        "Column4Name": 0 }
+        ]
+}
+
+/*
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+    <head>
+    <title>CPPIB DTAF PV Report</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script> 
+        <script src="http://ui-grid.info/release/ui-grid.js"></script> 
+        <script src="angularGrid.js"></script> 
+        <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css"> 
+        <link rel="stylesheet" href="style.css" type="text/css"> 
+    </head>
+    <div class="aligner">
+        <div class="backbutton"><a href="overview.html" class="button"><span>Back  </span></a></div>
+    </div>
+    <div class="title"><h1>PV By Risk Hierarchy</h1></div>
+    <div class="title"><h1>Results</h1></div>
+    <div class="version"><h2>Abacus Version 2.6.0 UAT Release</h2></div>
+    <div class="businessdate"><h3>January 10th, 2017</h3></div>
+    <div ng-app="uigridApp"> 
+        <div ng-controller="uigridCtrl" class="tables">
+            <div class="space">
+                <div ui-grid="firstTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-1" ng-click="firstTableElementWasClicked()"></div>
+            </div>
+            <div class="space">
+                <div ui-grid="secondTable" ng-show="showSecondTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-2" ng-click="secondTableWasClicked()"></div>
+            </div>
+            <div class="space">
+                <div ui-grid="thirdTable" ng-show="showThirdTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-3"></div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+
+
+*/

@@ -54,9 +54,9 @@ public class HtmlBuilder
 		page = new Page("Overview", new NewPage(true, "CPPIB DTAF Landing Page"));
 		
 		// add the Headings
-		page.addChild(new Div("title", new Heading("Regression Report", "h1")));
+		page.addChild(new Div("title", new Heading("DTAF Regression Report", "h1")));
 		page.addChild(new Div("version", new Heading("Abacus Version 2.6.0 UAT Release", "h2")));
-		page.addChild(new Div("businessdate", new Heading("December 20th, 2016", "h3")));
+		page.addChild(new Div("businessdate", new Heading("January 12th, 2017", "h3")));
 		
 		List<Element> buttons = new ArrayList<Element>();
 		buttons.add(new Div("space", new Button("PV", "PV_Valid.html", "matched")));
@@ -89,12 +89,11 @@ public class HtmlBuilder
 		};
 		
 		
-		page = new Page("PV_Valid", new NewPage(false, "CPPIB DTAF PV Report", scripts, style));
+		page = new Page("PV_Valid", new NewPage(false, "CPPIB DTAF PV By Risk Hierarchy Report", scripts, style));
 		
-		page.addChild(new Div("title", new Heading("PV", "h1")));
+		page.addChild(new Div("title", new Heading("PV By Risk Hierarchy", "h1")));
 		page.addChild(new Div("version", new Heading("Abacus Version 2.6.0 UAT Release", "h2")));
-		page.addChild(new Div("businessdate", new Heading("January 10th, 2017", "h3")));
-		page.addChild(new Div("heading", new Heading("AngularJS UI Grid Example", "h2")));
+		page.addChild(new Div("businessdate", new Heading("January 12th, 2017", "h3")));
 		
 		String[] directives = {
 				"ui-grid-pagination",
@@ -103,8 +102,8 @@ public class HtmlBuilder
 		};
 		
 		List<Element> tables = new ArrayList<Element>();
-		tables.add(new Div("space", new UiGridDiv("firstTable", "table-1", directives, "firstTableElementWasClicked()")));
-		tables.add(new Div("space", new UiGridDiv("showSecondTable", "secondTable", "table-2", directives, "secondTableWasClicked()")));
+		tables.add(new Div("space", new UiGridDiv("firstTable", "table-1", directives)));
+		tables.add(new Div("space", new UiGridDiv("showSecondTable", "secondTable", "table-2", directives)));
 		tables.add(new Div("space", new UiGridDiv("showThirdTable", "thirdTable", "table-3", directives)));
 		
 		page.addChild(new AngularDiv("uigridApp", new UiGridDiv("uigridCtrl", "tables", tables)));

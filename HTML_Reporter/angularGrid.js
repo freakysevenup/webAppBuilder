@@ -24,10 +24,10 @@ $scope.firstTable = {
   multiSelect: true,
   modifierKeysToMultiSelect: true,
   columnDefs: [
-  { field: 'Department',      displayName: 'Department' },
-  { field: 'Value',           displayName: 'Value' },
-  { field: 'Diff',            displayName: 'Diff' },
-  { field: 'DiffPercent',     displayName: 'Diff%' }
+  { "field": 'Department',      "displayName": 'Department' },
+  { "field": 'Value',           "displayName": 'Value' },
+  { "field": 'Diff',            "displayName": 'Diff' },
+  { "field": 'DiffPercent',     "displayName": 'Diff%' }
   ],
   onRegisterApi: function (gridApi) {
     $scope.grid1Api = gridApi;
@@ -76,10 +76,10 @@ $scope.secondTable = {
   multiSelect: true,
   modifierKeysToMultiSelect: true,
   columnDefs: [
-  { field: 'Strategy',            displayName: 'Strategy' },
-  { field: 'Value',               displayName: 'Value' },
-  { field: 'Diff',                displayName: 'Diff' },
-  { field: 'DiffPercent',         displayName: 'Diff%' }
+  { "field": 'Strategy',            "displayName": 'Strategy' },
+  { "field": 'Value',               "displayName": 'Value' },
+  { "field": 'Diff',                "displayName": 'Diff' },
+  { "field": 'DiffPercent',         "displayName": 'Diff%' }
   ],
   onRegisterApi: function (gridApi) {
   $scope.grid2Api = gridApi;
@@ -93,29 +93,29 @@ $scope.secondTable = {
 };
 
 $scope.tableData2 = [
-        { Strategy: "Nickole Milne",      Value: 34,      Diff: 0,        DiffPercent: 0 },
-        { Strategy: "Addie Moretti",      Value: 24,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Cleora Lasala",      Value: 56,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Rosann Rotondo",     Value: 33,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Carmelo Sterner",    Value: 28,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Joey McNamara",      Value: 42,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Branden Madrigal",   Value: 37,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Mary Bobcageon",     Value: 97,      Diff: 4500,     DiffPercent: 344  },
-        { Strategy: "Spencer Grant",      Value: 12,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Agustin Condra",     Value: 38,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Adelaida Leeks",     Value: 49,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Concepcion Fender",  Value: 67,      Diff: 3400,     DiffPercent: 4000  },
-        { Strategy: "Shaunta Bova",       Value: 18,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Miguel Chickering",  Value: 49,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Elliott Mailloux",   Value: 42,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Deangelo Meachum",   Value: 35,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Danyelle Coil",      Value: 22,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Bryanna Neubauer",   Value: 15,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Sharan Faught",      Value: 84,      Diff: 1200,     DiffPercent: 90  },
-        { Strategy: "Nereida Mcnulty",    Value: 72,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Ahmed Runyon",       Value: 64,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Debby Douville",     Value: 79,      Diff: 0,        DiffPercent: 0  },
-        { Strategy: "Stephine Robinett",  Value: 81,      Diff: 0,        DiffPercent: 0  }
+        { "Strategy": "Nickole Milne",      "Value": 34,      "Diff": 0,        "DiffPercent": 0 },
+        { "Strategy": "Addie Moretti",      "Value": 24,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Cleora Lasala",      "Value": 56,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Rosann Rotondo",     "Value": 33,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Carmelo Sterner",    "Value": 28,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Joey McNamara",      "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Branden Madrigal",   "Value": 37,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Mary Bobcageon",     "Value": 97,      "Diff": 4500,     "DiffPercent": 344  },
+        { "Strategy": "Spencer Grant",      "Value": 12,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Agustin Condra",     "Value": 38,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Adelaida Leeks",     "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Concepcion Fender",  "Value": 67,      "Diff": 3400,     "DiffPercent": 4000  },
+        { "Strategy": "Shaunta Bova",       "Value": 18,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Miguel Chickering",  "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Elliott Mailloux",   "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Deangelo Meachum",   "Value": 35,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Danyelle Coil",      "Value": 22,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Bryanna Neubauer",   "Value": 15,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Sharan Faught",      "Value": 84,      "Diff": 1200,     "DiffPercent": 90  },
+        { "Strategy": "Nereida Mcnulty",    "Value": 72,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Ahmed Runyon",       "Value": 64,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Debby Douville",     "Value": 79,      "Diff": 0,        "DiffPercent": 0  },
+        { "Strategy": "Stephine Robinett",  "Value": 81,      "Diff": 0,        "DiffPercent": 0  }
     ];
 
 $scope.secondTable.data = $scope.tableData2;
@@ -128,10 +128,10 @@ $scope.thirdTable = {
   multiSelect: true,
   modifierKeysToMultiSelect: true,
   columnDefs: [
-  { field: 'ModelPortfolio',      displayName: 'Model Portfolio' },
-  { field: 'Value',               displayName: 'Value' },
-  { field: 'Diff',                displayName: 'Diff' },
-  { field: 'DiffPercent',         displayName: 'Diff%' }
+  { "field": 'ModelPortfolio',      "displayName": 'Model Portfolio' },
+  { "field": 'Value',               "displayName": 'Value' },
+  { "field": 'Diff',                "displayName": 'Diff' },
+  { "field": 'DiffPercent',         "displayName": 'Diff%' }
   ],
   onRegisterApi: function (gridApi) {
     $scope.grid3Api = gridApi;
@@ -145,29 +145,29 @@ $scope.thirdTable = {
 };
 
 $scope.tableData3 = [
-        { ModelPortfolio: "Nickole Milne",      Value: 34,      Diff: 0,        DiffPercent: 0 },
-        { ModelPortfolio: "Addie Moretti",      Value: 24,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Cleora Lasala",      Value: 56,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Rosann Rotondo",     Value: 33,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Carmelo Sterner",    Value: 28,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Joey McNamara",      Value: 42,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Branden Madrigal",   Value: 37,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Mary Bobcageon",     Value: 97,      Diff: 200,      DiffPercent: 34  },
-        { ModelPortfolio: "Spencer Grant",      Value: 12,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Agustin Condra",     Value: 38,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Adelaida Leeks",     Value: 49,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Concepcion Fender",  Value: 67,      Diff: 5000,     DiffPercent: 400  },
-        { ModelPortfolio: "Shaunta Bova",       Value: 18,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Miguel Chickering",  Value: 49,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Elliott Mailloux",   Value: 42,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Deangelo Meachum",   Value: 35,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Danyelle Coil",      Value: 22,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Bryanna Neubauer",   Value: 15,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Sharan Faught",      Value: 84,      Diff: 6900,     DiffPercent: 900  },
-        { ModelPortfolio: "Nereida Mcnulty",    Value: 72,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Ahmed Runyon",       Value: 64,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Debby Douville",     Value: 79,      Diff: 0,        DiffPercent: 0  },
-        { ModelPortfolio: "Stephine Robinett",  Value: 81,      Diff: 0,        DiffPercent: 0  }
+        { "ModelPortfolio": "Nickole Milne",      "Value": 34,      "Diff": 0,        "DiffPercent": 0 },
+        { "ModelPortfolio": "Addie Moretti",      "Value": 24,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Cleora Lasala",      "Value": 56,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Rosann Rotondo",     "Value": 33,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Carmelo Sterner",    "Value": 28,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Joey McNamara",      "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Branden Madrigal",   "Value": 37,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Mary Bobcageon",     "Value": 97,      "Diff": 200,      "DiffPercent": 34  },
+        { "ModelPortfolio": "Spencer Grant",      "Value": 12,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Agustin Condra",     "Value": 38,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Adelaida Leeks",     "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Concepcion Fender",  "Value": 67,      "Diff": 5000,     "DiffPercent": 400  },
+        { "ModelPortfolio": "Shaunta Bova",       "Value": 18,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Miguel Chickering",  "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Elliott Mailloux",   "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Deangelo Meachum",   "Value": 35,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Danyelle Coil",      "Value": 22,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Bryanna Neubauer",   "Value": 15,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Sharan Faught",      "Value": 84,      "Diff": 6900,     "DiffPercent": 900  },
+        { "ModelPortfolio": "Nereida Mcnulty",    "Value": 72,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Ahmed Runyon",       "Value": 64,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Debby Douville",     "Value": 79,      "Diff": 0,        "DiffPercent": 0  },
+        { "ModelPortfolio": "Stephine Robinett",  "Value": 81,      "Diff": 0,        "DiffPercent": 0  }
     ];
 
 $scope.thirdTable.data = $scope.tableData3;

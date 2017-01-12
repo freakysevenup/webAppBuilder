@@ -22,7 +22,7 @@ public class AngularDiv extends Element
 	 */
 	public AngularDiv(String divClass, String appName, String controller)
 	{
-		this.element = "<div ng-app=" + "\"" + appName + "\"" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\"></div>";
+		this.element = "<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\"></div>";
 	}
 	
 	/**
@@ -32,7 +32,7 @@ public class AngularDiv extends Element
 	 */
 	public AngularDiv(String appName, String controller)
 	{
-		this.element = "<div ng-app=" + "\"" + appName + "\"" + "ng-controller=" + "\"" + controller + "\"</div>";
+		this.element = "<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"</div>";
 	}
 	
 	/**
@@ -42,7 +42,7 @@ public class AngularDiv extends Element
 	 */
 	public AngularDiv(String appName, Element element)
 	{
-		this.element = "<div ng-app=" + "\"" + appName + "\" " + element.getString() + "</div>";
+		this.element = "<div ng-app=" + "\"" + appName + "\"> " + element.getString() + "</div>";
 	}
 	
 	/**

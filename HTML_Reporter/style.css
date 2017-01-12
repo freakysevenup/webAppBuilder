@@ -12,12 +12,15 @@ Root Variables for all pages
 	--back-button-border-colour: var(--button-border-colour);
 	--back-button-border-hover-colour: var(--button-border-hover-colour);
 	--unmatched-colour: red;
+	--default-button-colour: white;
 	--button-border-colour: 1px solid black;
 	--button-border-hover-colour: 1px solid white;
 	--button-text-colour: white;
 	--button-text-hover-colour: black;
-	--heading-text-colour: blue;
+	--heading-text-colour: #1F1185;
 	--table-background-colour: white;
+	--heading-dropshadow-colour: #376147;
+	--heading-dropshadow-highlight-colour: #D0F3DE;
 }
 
 /*
@@ -49,10 +52,12 @@ body {
 	width: auto;
 	height: auto;
 	background: linear-gradient(270deg, #cac9f0, #eff28e);
-	background-size: 400% 400%;
+	background-size: 4000% 4000%;
 	animation: AnimationName 30s ease infinite;
 	-webkit-animation: AnimationName 30s ease infinite;
 	-moz-animation: AnimationName 30s ease infinite;
+	/*background-image: url(images.jpg);
+	background-repeat: repeat;*/
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -60,8 +65,13 @@ body {
 .title {
 	color: var(--heading-text-colour);
 	text-align: center;
+	font-size: 25px;
 	margin-left: 15em;
 	margin-right: 15em;
+	text-shadow: -1px -1px 1px var(--heading-dropshadow-highlight-colour),
+			 0px 4px 1px var(--heading-dropshadow-colour),
+             4px 4px 5px var(--heading-dropshadow-colour),
+             0px 0px 7px var(--heading-dropshadow-colour);
 }
 
 .version {
@@ -91,7 +101,7 @@ body {
 a.matched, a.unmatched {
 	
   	border-radius: 4px;
-  	background-color: #f4511e;
+	  background-color: var(--default-button-colour);
 	border: var(--button-border-colour);
 	color: var(--button-text-colour);
   	text-align: center;
