@@ -1,0 +1,302 @@
+
+/*
+Root Variables for all pages
+*/
+
+:root {
+    --table-width: 1200px;
+    --table-height: 400px;
+	--matched-colour: darkblue;
+	--back-button-colour: var(--matched-colour);
+	--back-button-text-colour: white;
+	--back-button-border-colour: var(--button-border-colour);
+	--back-button-border-hover-colour: var(--button-border-hover-colour);
+	--unmatched-colour: red;
+	--default-button-colour: white;
+	--button-border-colour: 1px solid black;
+	--button-border-hover-colour: 1px solid white;
+	--button-text-colour: white;
+	--button-text-hover-colour: black;
+	--heading-text-colour: #1F1185;
+	--table-background-colour: white;
+	--heading-dropshadow-colour: #376147;
+	--heading-dropshadow-highlight-colour: #D0F3DE;
+}
+
+/*
+Landing Page
+Uses:
+	-Buttons
+	-Headings
+	-Backgrounds
+	-Animations
+*/
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body {
+	width: auto;
+	height: auto;
+	background: linear-gradient(270deg, #cac9f0, #eff28e);
+	background-size: 4000% 4000%;
+	animation: AnimationName 30s ease infinite;
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.title {
+	color: var(--heading-text-colour);
+	text-align: center;
+	font-size: 25px;
+	margin-left: 15em;
+	margin-right: 15em;
+	text-shadow: -1px -1px 1px var(--heading-dropshadow-highlight-colour),
+			 0px 4px 1px var(--heading-dropshadow-colour),
+             4px 4px 5px var(--heading-dropshadow-colour),
+             0px 0px 7px var(--heading-dropshadow-colour);
+}
+
+.version {
+	color: var(--heading-text-colour);
+	text-align: center;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+.businessdate {
+	color: var(--heading-text-colour);
+	text-align: center;
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
+.buttons {
+	align: center;
+	padding: 20px;
+	width: 100%;
+}
+
+/*.space {
+	padding-bottom: 10px;
+}*/
+
+a.matched, a.unmatched {
+	
+  	border-radius: 4px;
+	background-color: var(--default-button-colour);
+	border: var(--button-border-colour);
+	color: var(--button-text-colour);
+  	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 24px;
+  	padding: 15px 32px;
+  	width: 50%;
+  	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+/*
+This is for the animated double right pointing arrow on the buttons
+
+a.matched span, a.unmatched span {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: 0.5s;
+}
+
+a.matched span:after, a.unmatched span:after {
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+}
+
+a.matched:hover span, a.unmatched:hover span {
+  	padding-right: 25px;
+}
+
+a.matched:hover span:after, a.unmatched:hover span:after {
+  	opacity: 1;
+  	right: 0;
+}*/
+
+a.matched {
+	background-color: var(--matched-colour);
+	color: var(--button-text-colour);
+}
+
+a.unmatched {
+	background-color: var(--unmatched-colour);
+	color: var(--button-text-colour);
+}
+
+a.matched:hover, a.unmatched:hover {
+	border: var(--button-border-hover-colour);
+}
+
+
+a:link {
+	color: white;
+	text-decoration: circle;
+	text-align: center;
+}
+
+/* 
+Validation Pages
+Uses:
+	-Backbutton
+	-UiGrid Styles
+	-Angular Styles
+ */
+
+.table-1, .table-2, .table-3 {
+    width: var(--table-width);
+    height: var(--table-height);
+	background-color: var(--table-background-colour);
+}
+
+.tables {
+    position: absolute;
+    padding-left: 15em;
+    height: var(--table-height);
+}
+
+.backbutton {
+	padding-bottom: 10px;
+}
+
+a.button {
+    border-radius: 4px;
+	background-color: var(--back-button-colour);
+	border: var(--back-button-border-colour);
+	color: var(--back-button-text-colour);
+  	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	font-size: 24px;
+  	padding: 5px 15px;
+  	width: 8%;
+  	transition: all 0.5s;
+  	cursor: pointer;
+  	margin: 5px;
+}
+
+a.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+a.button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.1s;
+}
+
+a.button:hover span{
+    padding-left: 25px;
+}
+
+a.button:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
+a.button:hover {
+	border: var(--back-button-border-hover-colour);
+}
+
+.aligner {
+    text-align: left;
+}
+
+/*
+for nav menu
+*/
+
+nav.menu_nav {
+	position: relative;
+	padding-left: 175px;
+	width: 75%;
+}
+
+nav.menu_nav ul {
+	list-style: none;
+}
+
+nav.menu_nav li {
+	position: block;
+}
+
+nav.menu_nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: 0.2s;
+}
+
+nav.menu_nav li#list_header:hover > a{
+	background:#778;
+	padding-bottom: 15em;
+	text-align: center;
+	transition: 0.1s;
+}
+
+nav.menu_nav ul ul{
+  	position:absolute;
+	top: 4em;
+	left: 2em;
+	width:50%;
+	padding-left: 0px;
+	visibility:hidden;
+	opacity:0;
+	/*transition: transform 0.2s;
+	transform: translateX(-150px);*/
+}
+
+nav.menu_nav ul ul li{
+	padding: 0em;
+	/*transform: translateX(-50px);*/
+}
+
+nav.menu_nav li:hover > ul{
+	left:50%;
+	visibility:visible;
+	opacity:1;
+	transform: translateX(0px);
+}
+
+
+
+
+
+
+
+
+
