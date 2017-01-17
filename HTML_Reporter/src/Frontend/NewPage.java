@@ -27,6 +27,7 @@ public class NewPage extends Element
 			returnValue = opening + header + backbutton;
 		}
 		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 	
 	/**
@@ -65,6 +66,7 @@ public class NewPage extends Element
 			returnValue = opening + header + backbutton;
 		}
 		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 	
 	/**
@@ -102,6 +104,7 @@ public class NewPage extends Element
 			returnValue = opening + header + backbutton;
 		}
 		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 
 	/**

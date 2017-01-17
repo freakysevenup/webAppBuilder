@@ -14,7 +14,8 @@ public class Heading extends Element
 	 */
 	public Heading(String Heading, String HeadingType)
 	{
-		this.element = "<" + HeadingType + ">" + Heading + "</" + HeadingType + ">";
+		this.element = "<" + HeadingType + ">" + Heading + "</" + HeadingType + ">\n";
+		assert(this.element.equals("<" + HeadingType + ">" + Heading + "</" + HeadingType + ">\n"));
 	}
 
 	/**

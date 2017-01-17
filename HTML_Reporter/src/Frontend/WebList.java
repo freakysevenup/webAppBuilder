@@ -1,5 +1,7 @@
 package Frontend;
 
+import java.util.List;
+
 /**
  * This class is used to create both Unordered Lists, and Ordered lists
  * @author Jesse Derochie
@@ -14,21 +16,58 @@ public class WebList extends Element
 	 */
 	public WebList(boolean ordered, String[] data)
 	{
-		String returnData;
+		String returnValue;
 		if (ordered)
 		{
-			returnData = "<ol class=\"List\">";
+			returnValue = "<ol class=\"List\">";
 		}
 		else
 		{
-			returnData = "<ul class=\"List\">";
+			returnValue = "<ul class=\"List\">";
 		}
 		
 		for (int i = 0; i < data.length; i++)
 		{
-			returnData += "<li>" + data[i] + "</li>";
+			returnValue += "<li>" + data[i] + "</li>";
 		}
-		this.element = returnData;
+		
+		if (ordered)
+		{
+			returnValue += "</ol>";
+		}
+		else
+		{
+			returnValue += "</ul>";
+		}
+		this.element = returnValue;
+		assert(this.element.equals(returnValue));
+	}
+	
+	/**
+	 * constructor
+	 * @param ordered - Should this list be ordered
+	 * @param data - List of the data to contain in the list
+	 * @param listItmeID - list item id tag
+	 */
+	public WebList(boolean ordered, List<Element> elements)
+	{
+		String returnValue;
+		if (ordered)
+		{
+			returnValue = "<ol>";
+		}
+		else
+		{
+			returnValue = "<ul>";
+		}
+		
+		for (int i = 0; i < elements.size(); i++)
+		{
+			returnValue += elements.get(i).getString();
+		}
+		returnValue += "</ul>";
+		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 	
 	/**

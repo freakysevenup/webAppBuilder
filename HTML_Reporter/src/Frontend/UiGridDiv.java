@@ -11,22 +11,25 @@ public class UiGridDiv extends Element
 	public UiGridDiv(String controllerName, Element element)
 	{
 		this.element = "<div ng-controller=\"" + controllerName + "\">" + element.getString() + "</div>";
+		assert(this.element.equals("<div ng-controller=\"" + controllerName + "\">" + element.getString() + "</div>"));
 	}
 	
 	public UiGridDiv(String controllerName, String className, Element element)
 	{
 		this.element = "<div ng-controller=\"" + controllerName + "\" class=\"" + className + "\">" + element.getString() + "</div>";
+		assert(this.element.equals("<div ng-controller=\"" + controllerName + "\" class=\"" + className + "\">" + element.getString() + "</div>"));
 	}
 	
 	public UiGridDiv(String controllerName, String controllerClassName, List<Element> elements)
 	{
-		String value = "<div ng-controller=\"" + controllerName + "\" class=\"" + controllerClassName + "\">";
+		String returnValue = "<div ng-controller=\"" + controllerName + "\" class=\"" + controllerClassName + "\">";
 		for (Element ele : elements)
 		{
-			value += ele.getString();
+			returnValue += ele.getString();
 		}
-		value += "</div>";
-		this.element = value;
+		returnValue += "</div>";
+		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 	
 	public UiGridDiv(String uiGridName, String divClass, String[] directives)
@@ -37,6 +40,7 @@ public class UiGridDiv extends Element
 			dirs += d + " ";
 		}
 		this.element = "<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\"></div>";
+		assert(this.element.equals("<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\"></div>"));
 	}
 	
 	public UiGridDiv(String showVariableName, String uiGridName, String divClass, String[] directives, String onClickMethodName)
@@ -47,6 +51,7 @@ public class UiGridDiv extends Element
 			dirs += d + " ";
 		}
 		this.element = "<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>";
+		assert(this.element.equals("<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>"));
 	}
 	
 	public UiGridDiv(String uiGridName, String divClass, String[] directives, String onClickMethodName)
@@ -57,6 +62,7 @@ public class UiGridDiv extends Element
 			dirs += d + " ";
 		}
 		this.element = "<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>";
+		assert(this.element.equals("<div ui-grid=\"" + uiGridName + "\" " + dirs + "class=\"" + divClass + "\" ng-click=\"" + onClickMethodName + "\"></div>"));
 	}
 	
 	public UiGridDiv(String showVariableName, String uiGridName, String divClass, String[] directives)
@@ -67,6 +73,7 @@ public class UiGridDiv extends Element
 			dirs += d + " ";
 		}
 		this.element = "<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\"></div>";
+		assert(this.element.equals("<div ui-grid=\"" + uiGridName + "\" ng-show=\"" + showVariableName + "\" " + dirs + "class=\"" + divClass + "\"></div>"));
 	}
 	
 	/**

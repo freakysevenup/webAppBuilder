@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="50" passed="50">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Html Reporter Suite" duration-ms="87" started-at="2017-01-17T15:51:41Z" finished-at="2017-01-17T15:51:41Z">
+    <groups>
+    </groups>
+    <test name="Constructor and Method Tests" duration-ms="87" started-at="2017-01-17T15:51:41Z" finished-at="2017-01-17T15:51:41Z">
+      <class name="com.CPPIB.Test.PageTest">
+        <test-method status="PASS" signature="ClosePageConstructorTest(Frontend.ClosePage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="ClosePageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test2" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.ClosePage@2286778]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosePageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@6d7b4f4c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@13a5fe33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@370736d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@63753b6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@6536e911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="NewPageConstructorTest(Frontend.NewPage)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="NewPageConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NewPage@18eed359]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPageConstructorTest -->
+        <test-method status="PASS" signature="PageConstructorTest(Frontend.Page)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="PageConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Page@6c3708b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageConstructorTest -->
+        <test-method status="PASS" signature="PageConstructorTest(Frontend.Page)[pri:0, instance:com.CPPIB.Test.PageTest@56f4468b]" name="PageConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Page@185d8b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageConstructorTest -->
+      </class> <!-- com.CPPIB.Test.PageTest -->
+      <class name="com.CPPIB.Test.HtmlMapTest">
+        <test-method status="PASS" signature="HtmlMapAddChildTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapAddChildTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapAddChildTest -->
+        <test-method status="PASS" signature="HtmlMapAddChildrenTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapAddChildrenTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapAddChildrenTest -->
+        <test-method status="PASS" signature="HtmlMapConstructorTest(Frontend.HtmlMap)[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.HtmlMap@1efed156]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapConstructorTest -->
+        <test-method status="PASS" signature="HtmlMapConstructorTest(Frontend.HtmlMap)[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.HtmlMap@3224f60b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapConstructorTest -->
+        <test-method status="PASS" signature="HtmlMapGetChildrenTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapGetChildrenTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapGetChildrenTest -->
+        <test-method status="PASS" signature="HtmlMapGetDataTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapGetDataTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapGetDataTest -->
+        <test-method status="PASS" signature="HtmlMapGetParentTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapGetParentTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapGetParentTest -->
+        <test-method status="PASS" signature="HtmlMapHasChildrenTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapHasChildrenTest" duration-ms="2" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapHasChildrenTest -->
+        <test-method status="PASS" signature="HtmlMapSetParentTest()[pri:0, instance:com.CPPIB.Test.HtmlMapTest@36d4b5c]" name="HtmlMapSetParentTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" finished-at="2017-01-17T10:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HtmlMapSetParentTest -->
+      </class> <!-- com.CPPIB.Test.HtmlMapTest -->
+      <class name="com.CPPIB.Test.HeadingAndParagraphsTest">
+        <test-method status="PASS" signature="HeadingConstructorTest(Frontend.Heading)[pri:0, instance:com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef]" name="HeadingConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Heading@4b4523f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeadingConstructorTest -->
+        <test-method status="PASS" signature="ParagraphConstructorTest(Frontend.Paragraph)[pri:0, instance:com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef]" name="ParagraphConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Paragraph@369f73a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParagraphConstructorTest -->
+        <test-method status="PASS" signature="ParagraphConstructorTest(Frontend.Paragraph)[pri:0, instance:com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef]" name="ParagraphConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Paragraph@7d907bac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParagraphConstructorTest -->
+        <test-method status="PASS" signature="ParagraphConstructorTest(Frontend.Paragraph)[pri:0, instance:com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef]" name="ParagraphConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Paragraph@3a5ed7a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParagraphConstructorTest -->
+        <test-method status="PASS" signature="ParagraphConstructorTest(Frontend.Paragraph)[pri:0, instance:com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef]" name="ParagraphConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Paragraph@1d16f93d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParagraphConstructorTest -->
+      </class> <!-- com.CPPIB.Test.HeadingAndParagraphsTest -->
+      <class name="com.CPPIB.Test.ListTest">
+        <test-method status="PASS" signature="ListItemConstructorTest(Frontend.ListItem)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="ListItemConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.ListItem@65e2dbf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListItemConstructorTest -->
+        <test-method status="PASS" signature="ListItemConstructorTest(Frontend.ListItem)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="ListItemConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.ListItem@887af79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListItemConstructorTest -->
+        <test-method status="PASS" signature="ListItemConstructorTest(Frontend.ListItem)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="ListItemConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.ListItem@61f8bee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListItemConstructorTest -->
+        <test-method status="PASS" signature="ListItemConstructorTest(Frontend.ListItem)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="ListItemConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.ListItem@5b87ed94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListItemConstructorTest -->
+        <test-method status="PASS" signature="WebListConstructorTest(Frontend.WebList)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="WebListConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.WebList@5bc79255]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebListConstructorTest -->
+        <test-method status="PASS" signature="WebListConstructorTest(Frontend.WebList)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="WebListConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.WebList@23e028a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebListConstructorTest -->
+        <test-method status="PASS" signature="WebListConstructorTest(Frontend.WebList)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="WebListConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.WebList@5ae63ade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebListConstructorTest -->
+        <test-method status="PASS" signature="WebListConstructorTest(Frontend.WebList)[pri:0, instance:com.CPPIB.Test.ListTest@100fc185]" name="WebListConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test1" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.WebList@43814d18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebListConstructorTest -->
+      </class> <!-- com.CPPIB.Test.ListTest -->
+      <class name="com.CPPIB.Test.PageWriterTest">
+        <test-method status="PASS" signature="PageWriterConstructorTest(Frontend.PageWriter)[pri:0, instance:com.CPPIB.Test.PageWriterTest@6d00a15d]" name="PageWriterConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.PageWriter@7c29daf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageWriterConstructorTest -->
+      </class> <!-- com.CPPIB.Test.PageWriterTest -->
+      <class name="com.CPPIB.Test.UiGridDivTest">
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@551aa95a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@1dfe2924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@6e6c3152]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@3cef309d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@3d99d22e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@cd2dae5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+        <test-method status="PASS" signature="UiGridDivConstructorTest(Frontend.UiGridDiv)[pri:0, instance:com.CPPIB.Test.UiGridDivTest@2ef5e5e3]" name="UiGridDivConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.UiGridDiv@4973813a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UiGridDivConstructorTest -->
+      </class> <!-- com.CPPIB.Test.UiGridDivTest -->
+      <class name="com.CPPIB.Test.ButtonTest">
+        <test-method status="PASS" signature="ButtonConstructorTest(Frontend.Button)[pri:0, instance:com.CPPIB.Test.ButtonTest@5d5eef3d]" name="ButtonConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Button@20398b7c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonConstructorTest -->
+        <test-method status="PASS" signature="ButtonConstructorTest(Frontend.Button)[pri:0, instance:com.CPPIB.Test.ButtonTest@5d5eef3d]" name="ButtonConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Button@56235b8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonConstructorTest -->
+      </class> <!-- com.CPPIB.Test.ButtonTest -->
+      <class name="com.CPPIB.Test.NavMenuTest">
+        <test-method status="PASS" signature="NavMenuConstructorTest(Frontend.NavMenu)[pri:0, instance:com.CPPIB.Test.NavMenuTest@643b1d11]" name="NavMenuConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NavMenu@627551fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavMenuConstructorTest -->
+        <test-method status="PASS" signature="NavMenuConstructorTest(Frontend.NavMenu)[pri:0, instance:com.CPPIB.Test.NavMenuTest@643b1d11]" name="NavMenuConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.NavMenu@2758fe70]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavMenuConstructorTest -->
+      </class> <!-- com.CPPIB.Test.NavMenuTest -->
+      <class name="com.CPPIB.Test.DivTest">
+        <test-method status="PASS" signature="DivConstructorTest(Frontend.Div)[pri:0, instance:com.CPPIB.Test.DivTest@6cc4c815]" name="DivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Div@210366b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivConstructorTest -->
+        <test-method status="PASS" signature="DivConstructorTest(Frontend.Div)[pri:0, instance:com.CPPIB.Test.DivTest@6cc4c815]" name="DivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Div@2b2948e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivConstructorTest -->
+        <test-method status="PASS" signature="DivConstructorTest(Frontend.Div)[pri:0, instance:com.CPPIB.Test.DivTest@6cc4c815]" name="DivConstructorTest" duration-ms="0" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.Div@57536d79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivConstructorTest -->
+      </class> <!-- com.CPPIB.Test.DivTest -->
+      <class name="com.CPPIB.Test.AngularDivTest">
+        <test-method status="PASS" signature="AngularDivConstructorTest(Frontend.AngularDiv)[pri:0, instance:com.CPPIB.Test.AngularDivTest@4439f31e]" name="AngularDivConstructorTest" duration-ms="7" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.AngularDiv@4b952a2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AngularDivConstructorTest -->
+        <test-method status="PASS" signature="AngularDivConstructorTest(Frontend.AngularDiv)[pri:0, instance:com.CPPIB.Test.AngularDivTest@4439f31e]" name="AngularDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.AngularDiv@3327bd23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AngularDivConstructorTest -->
+        <test-method status="PASS" signature="AngularDivConstructorTest(Frontend.AngularDiv)[pri:0, instance:com.CPPIB.Test.AngularDivTest@4439f31e]" name="AngularDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.AngularDiv@66480dd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AngularDivConstructorTest -->
+        <test-method status="PASS" signature="AngularDivConstructorTest(Frontend.AngularDiv)[pri:0, instance:com.CPPIB.Test.AngularDivTest@4439f31e]" name="AngularDivConstructorTest" duration-ms="1" started-at="2017-01-17T10:51:41Z" data-provider="test" finished-at="2017-01-17T10:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Frontend.AngularDiv@5ce81285]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AngularDivConstructorTest -->
+      </class> <!-- com.CPPIB.Test.AngularDivTest -->
+    </test> <!-- Constructor and Method Tests -->
+  </suite> <!-- Html Reporter Suite -->
+</testng-results>

@@ -12,6 +12,7 @@ public class AngularDiv extends Element
 	public AngularDiv(String divClass, String appName, String controller, Element element)
 	{
 		this.element = "<div ng-app=" + "\"" + appName + "\"" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\">" + element.getString() + "</div>";
+		assert(this.element.equals("<div ng-app=" + "\"" + appName + "\"" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\">" + element.getString() + "</div>"));
 	}
 	
 	/**
@@ -23,6 +24,7 @@ public class AngularDiv extends Element
 	public AngularDiv(String divClass, String appName, String controller)
 	{
 		this.element = "<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\"></div>";
+		assert(this.element.equals("<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"" + "class=\"" + divClass + "\"></div>"));
 	}
 	
 	/**
@@ -33,6 +35,7 @@ public class AngularDiv extends Element
 	public AngularDiv(String appName, String controller)
 	{
 		this.element = "<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"</div>";
+		assert(this.element.equals("<div ng-app=" + "\"" + appName + "\">" + "ng-controller=" + "\"" + controller + "\"</div>"));
 	}
 	
 	/**
@@ -43,6 +46,7 @@ public class AngularDiv extends Element
 	public AngularDiv(String appName, Element element)
 	{
 		this.element = "<div ng-app=" + "\"" + appName + "\"> " + element.getString() + "</div>";
+		assert(this.element.equals("<div ng-app=" + "\"" + appName + "\"> " + element.getString() + "</div>"));
 	}
 	
 	/**

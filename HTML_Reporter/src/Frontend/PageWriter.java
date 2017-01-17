@@ -54,7 +54,7 @@ public class PageWriter
 	
 	/**
 	 * This method checks all children of the element parameter
-	 * to discover is they also have children
+	 * to discover if they also have children
 	 * @param element - The element to check
 	 */
 	private void checkChildren(HtmlMap<Element> element)
@@ -97,8 +97,6 @@ public class PageWriter
 			{
 				e.printStackTrace();
 			}
-
-
 		}
 	}
 }

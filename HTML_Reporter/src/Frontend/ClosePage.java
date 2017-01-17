@@ -12,7 +12,8 @@ public class ClosePage extends Element
 	 */
 	public ClosePage()
 	{
-		this.element = "</body></html>";
+		this.element = "</body>\n</html>";
+		assert(this.element.equals("</body>\n</html>"));
 	}
 	
 	/**

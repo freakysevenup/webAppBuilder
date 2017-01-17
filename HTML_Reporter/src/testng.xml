@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Html Reporter Suite">
+
+  <test name="Constructor and Method Tests">
+    <classes>
+       <class name="com.CPPIB.Test.AngularDivTest" />
+       <class name="com.CPPIB.Test.ButtonTest" />
+       <class name="com.CPPIB.Test.PageTest" />
+       <class name="com.CPPIB.Test.DivTest" />
+       <class name="com.CPPIB.Test.HeadingAndParagraphsTest" />
+       <class name="com.CPPIB.Test.ListTest" />
+       <class name="com.CPPIB.Test.NavMenuTest" />
+       <class name="com.CPPIB.Test.UiGridDivTest" />
+       <class name="com.CPPIB.Test.HtmlMapTest" />
+       <class name="com.CPPIB.Test.PageWriterTest" />
+    </classes>
+  </test>
+  
+</suite>  	

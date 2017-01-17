@@ -56,8 +56,6 @@ body {
 	animation: AnimationName 30s ease infinite;
 	-webkit-animation: AnimationName 30s ease infinite;
 	-moz-animation: AnimationName 30s ease infinite;
-	/*background-image: url(images.jpg);
-	background-repeat: repeat;*/
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -94,14 +92,14 @@ body {
 	width: 100%;
 }
 
-.space {
+/*.space {
 	padding-bottom: 10px;
-}
+}*/
 
 a.matched, a.unmatched {
 	
   	border-radius: 4px;
-	  background-color: var(--default-button-colour);
+	background-color: var(--default-button-colour);
 	border: var(--button-border-colour);
 	color: var(--button-text-colour);
   	text-align: center;
@@ -113,33 +111,35 @@ a.matched, a.unmatched {
   	width: 50%;
   	transition: all 0.5s;
   	cursor: pointer;
-  	margin: 5px;
 }
 
+/*
+This is for the animated double right pointing arrow on the buttons
+
 a.matched span, a.unmatched span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: 0.5s;
 }
 
 a.matched span:after, a.unmatched span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+  	content: '\00bb';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
 }
 
 a.matched:hover span, a.unmatched:hover span {
-  padding-right: 25px;
+  	padding-right: 25px;
 }
 
 a.matched:hover span:after, a.unmatched:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+  	opacity: 1;
+  	right: 0;
+}*/
 
 a.matched {
 	background-color: var(--matched-colour);
@@ -235,4 +235,68 @@ a.button:hover {
 .aligner {
     text-align: left;
 }
+
+/*
+for nav menu
+*/
+
+nav.menu_nav {
+	position: relative;
+	padding-left: 175px;
+	width: 75%;
+}
+
+nav.menu_nav ul {
+	list-style: none;
+}
+
+nav.menu_nav li {
+	position: block;
+}
+
+nav.menu_nav a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: 0.2s;
+}
+
+nav.menu_nav li#list_header:hover > a{
+	background:#778;
+	padding-bottom: 15em;
+	text-align: center;
+	transition: 0.1s;
+}
+
+nav.menu_nav ul ul{
+  	position:absolute;
+	top: 4em;
+	left: 2em;
+	width:50%;
+	padding-left: 0px;
+	visibility:hidden;
+	opacity:0;
+	/*transition: transform 0.2s;
+	transform: translateX(-150px);*/
+}
+
+nav.menu_nav ul ul li{
+	padding: 0em;
+	/*transform: translateX(-50px);*/
+}
+
+nav.menu_nav li:hover > ul{
+	left:50%;
+	visibility:visible;
+	opacity:1;
+	transform: translateX(0px);
+}
+
+
+
+
+
+
+
+
 

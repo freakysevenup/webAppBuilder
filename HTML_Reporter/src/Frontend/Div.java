@@ -16,13 +16,14 @@ public class Div extends Element
 	 */
 	public Div(String divClass, List<Element> elements)
 	{
-		String value = "<div class=\"" + divClass + "\">";
+		String returnValue = "<div class=\"" + divClass + "\">";
 		for (Element e : elements)
 		{
-			value += e.getString();
+			returnValue += e.getString();
 		}
-		value += "</div>";
-		this.element = value;
+		returnValue += "</div>";
+		this.element = returnValue;
+		assert(this.element.equals(returnValue));
 	}
 	
 	/**
@@ -33,6 +34,13 @@ public class Div extends Element
 	public Div(String divClass, Element element)
 	{
 		this.element = "<div class=\"" + divClass + "\">" + element.getString() + "</div>";
+		assert(this.element.equals("<div class=\"" + divClass + "\">" + element.getString() + "</div>"));
+	}
+	
+	public Div(String divClass)
+	{
+		this.element = "<div class=\"" + divClass + "\"></div>";
+		assert(this.element.equals("<div class=\"" + divClass + "\"></div>"));
 	}
 	
 	/**

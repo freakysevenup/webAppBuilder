@@ -17,6 +17,13 @@ public class Button extends Element
 	public Button(String name, String link, String buttonClass)
 	{
 		this.element = "<a href=\"" + link + "\" class=\"" + buttonClass + "\"><span>" + name + " </span></a>";
+		assert(this.element.equals("<a href=\"" + link + "\" class=\"" + buttonClass + "\"><span>" + name + " </span></a>"));
+	}
+	
+	public Button(String name, String buttonID, String onClickMethodName, String buttonClass)
+	{
+		this.element = "<a href=\"\"" + "id=\"" + buttonID + "\" onClick=\"" + onClickMethodName + "()\" class=\"" + buttonClass + "\"><span>" + name + " </span></a>";
+		assert(this.element.equals("<a href=\"\"" + "id=\"" + buttonID + "\" onClick=\"" + onClickMethodName + "()\" class=\"" + buttonClass + "\"><span>" + name + " </span></a>"));
 	}
 	
 	/**

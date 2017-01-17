@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Constructor and Method Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Constructor and Method Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 17 10:51:41 EST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (87 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.CPPIB.Test.AngularDivTest.AngularDivConstructorTest()'><b>AngularDivConstructorTest</b><br>Test class: com.CPPIB.Test.AngularDivTest<br>Parameters: Frontend.AngularDiv@4b952a2d</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.AngularDivTest@4439f31e</td></tr>
+<tr>
+<td title='com.CPPIB.Test.AngularDivTest.AngularDivConstructorTest()'><b>AngularDivConstructorTest</b><br>Test class: com.CPPIB.Test.AngularDivTest<br>Parameters: Frontend.AngularDiv@3327bd23</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.AngularDivTest@4439f31e</td></tr>
+<tr>
+<td title='com.CPPIB.Test.AngularDivTest.AngularDivConstructorTest()'><b>AngularDivConstructorTest</b><br>Test class: com.CPPIB.Test.AngularDivTest<br>Parameters: Frontend.AngularDiv@66480dd7</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.AngularDivTest@4439f31e</td></tr>
+<tr>
+<td title='com.CPPIB.Test.AngularDivTest.AngularDivConstructorTest()'><b>AngularDivConstructorTest</b><br>Test class: com.CPPIB.Test.AngularDivTest<br>Parameters: Frontend.AngularDiv@5ce81285</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.AngularDivTest@4439f31e</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ButtonTest.ButtonConstructorTest()'><b>ButtonConstructorTest</b><br>Test class: com.CPPIB.Test.ButtonTest<br>Parameters: Frontend.Button@20398b7c</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ButtonTest@5d5eef3d</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ButtonTest.ButtonConstructorTest()'><b>ButtonConstructorTest</b><br>Test class: com.CPPIB.Test.ButtonTest<br>Parameters: Frontend.Button@56235b8e</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ButtonTest@5d5eef3d</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.ClosePageConstructorTest()'><b>ClosePageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.ClosePage@2286778</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.DivTest.DivConstructorTest()'><b>DivConstructorTest</b><br>Test class: com.CPPIB.Test.DivTest<br>Parameters: Frontend.Div@210366b4</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.DivTest@6cc4c815</td></tr>
+<tr>
+<td title='com.CPPIB.Test.DivTest.DivConstructorTest()'><b>DivConstructorTest</b><br>Test class: com.CPPIB.Test.DivTest<br>Parameters: Frontend.Div@2b2948e2</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.DivTest@6cc4c815</td></tr>
+<tr>
+<td title='com.CPPIB.Test.DivTest.DivConstructorTest()'><b>DivConstructorTest</b><br>Test class: com.CPPIB.Test.DivTest<br>Parameters: Frontend.Div@57536d79</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.DivTest@6cc4c815</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HeadingAndParagraphsTest.HeadingConstructorTest()'><b>HeadingConstructorTest</b><br>Test class: com.CPPIB.Test.HeadingAndParagraphsTest<br>Parameters: Frontend.Heading@4b4523f8</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapAddChildTest()'><b>HtmlMapAddChildTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapAddChildrenTest()'><b>HtmlMapAddChildrenTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapConstructorTest()'><b>HtmlMapConstructorTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest<br>Parameters: Frontend.HtmlMap@3224f60b</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapConstructorTest()'><b>HtmlMapConstructorTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest<br>Parameters: Frontend.HtmlMap@1efed156</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapGetChildrenTest()'><b>HtmlMapGetChildrenTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapGetDataTest()'><b>HtmlMapGetDataTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapGetParentTest()'><b>HtmlMapGetParentTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapHasChildrenTest()'><b>HtmlMapHasChildrenTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HtmlMapTest.HtmlMapSetParentTest()'><b>HtmlMapSetParentTest</b><br>Test class: com.CPPIB.Test.HtmlMapTest</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HtmlMapTest@36d4b5c</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.ListItemConstructorTest()'><b>ListItemConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.ListItem@65e2dbf3</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.ListItemConstructorTest()'><b>ListItemConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.ListItem@61f8bee4</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.ListItemConstructorTest()'><b>ListItemConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.ListItem@887af79</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.ListItemConstructorTest()'><b>ListItemConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.ListItem@5b87ed94</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.NavMenuTest.NavMenuConstructorTest()'><b>NavMenuConstructorTest</b><br>Test class: com.CPPIB.Test.NavMenuTest<br>Parameters: Frontend.NavMenu@627551fb</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.NavMenuTest@643b1d11</td></tr>
+<tr>
+<td title='com.CPPIB.Test.NavMenuTest.NavMenuConstructorTest()'><b>NavMenuConstructorTest</b><br>Test class: com.CPPIB.Test.NavMenuTest<br>Parameters: Frontend.NavMenu@2758fe70</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.NavMenuTest@643b1d11</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@6d7b4f4c</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@13a5fe33</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@370736d9</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@63753b6d</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@6536e911</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.NewPageConstructorTest()'><b>NewPageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.NewPage@18eed359</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.PageConstructorTest()'><b>PageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.Page@6c3708b3</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageTest.PageConstructorTest()'><b>PageConstructorTest</b><br>Test class: com.CPPIB.Test.PageTest<br>Parameters: Frontend.Page@185d8b6</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageTest@56f4468b</td></tr>
+<tr>
+<td title='com.CPPIB.Test.PageWriterTest.PageWriterConstructorTest()'><b>PageWriterConstructorTest</b><br>Test class: com.CPPIB.Test.PageWriterTest<br>Parameters: Frontend.PageWriter@7c29daf3</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.PageWriterTest@6d00a15d</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HeadingAndParagraphsTest.ParagraphConstructorTest()'><b>ParagraphConstructorTest</b><br>Test class: com.CPPIB.Test.HeadingAndParagraphsTest<br>Parameters: Frontend.Paragraph@369f73a2</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HeadingAndParagraphsTest.ParagraphConstructorTest()'><b>ParagraphConstructorTest</b><br>Test class: com.CPPIB.Test.HeadingAndParagraphsTest<br>Parameters: Frontend.Paragraph@7d907bac</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HeadingAndParagraphsTest.ParagraphConstructorTest()'><b>ParagraphConstructorTest</b><br>Test class: com.CPPIB.Test.HeadingAndParagraphsTest<br>Parameters: Frontend.Paragraph@3a5ed7a6</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.CPPIB.Test.HeadingAndParagraphsTest.ParagraphConstructorTest()'><b>ParagraphConstructorTest</b><br>Test class: com.CPPIB.Test.HeadingAndParagraphsTest<br>Parameters: Frontend.Paragraph@1d16f93d</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.HeadingAndParagraphsTest@3a82f6ef</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@551aa95a</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@1dfe2924</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@6e6c3152</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@3cef309d</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@3d99d22e</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@cd2dae5</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.UiGridDivTest.UiGridDivConstructorTest()'><b>UiGridDivConstructorTest</b><br>Test class: com.CPPIB.Test.UiGridDivTest<br>Parameters: Frontend.UiGridDiv@4973813a</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.UiGridDivTest@2ef5e5e3</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.WebListConstructorTest()'><b>WebListConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.WebList@5bc79255</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.WebListConstructorTest()'><b>WebListConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.WebList@23e028a9</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.WebListConstructorTest()'><b>WebListConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.WebList@5ae63ade</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+<tr>
+<td title='com.CPPIB.Test.ListTest.WebListConstructorTest()'><b>WebListConstructorTest</b><br>Test class: com.CPPIB.Test.ListTest<br>Parameters: Frontend.WebList@43814d18</td>
+<td></td>
+<td>0</td>
+<td>com.CPPIB.Test.ListTest@100fc185</td></tr>
+</table><p>
+</body>
+</html>

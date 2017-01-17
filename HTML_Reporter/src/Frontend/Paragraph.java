@@ -20,18 +20,22 @@ public class Paragraph extends Element
 		if (bold && italic)
 		{
 			this.element = "<p><b><i><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</i></b></p>";
+			assert(this.element.equals("<p><b><i><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</i></b></p>"));
 		}
 		else if(bold && !italic)
 		{
 			this.element = "<p><b><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</b></p>";
+			assert(this.element.equals("<p><b><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</b></p>"));
 		}
 		else if (!bold && italic)
 		{
 			this.element = "<p><i><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</i></p>";
+			assert(this.element.equals("<p><i><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</i></p>"));
 		}
 		else
 		{
 			this.element = "<p><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</p>";
+			assert(this.element.equals("<p><style=\"" + fontColour + ";\"" + "font-size=\"" + fontSize + ";\">" + paragraph + "</p>"));
 		}
 	}
 	
