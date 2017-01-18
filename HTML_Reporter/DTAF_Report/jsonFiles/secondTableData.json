@@ -1,25 +1,3 @@
 [
-        { "Strategy": "Nickole Milne",      "Value": 34,      "Diff": 0,        "DiffPercent": 0 },
-        { "Strategy": "Addie Moretti",      "Value": 24,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Cleora Lasala",      "Value": 56,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Rosann Rotondo",     "Value": 33,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Carmelo Sterner",    "Value": 28,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Joey McNamara",      "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Branden Madrigal",   "Value": 37,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Mary Bobcageon",     "Value": 97,      "Diff": 4500,     "DiffPercent": 344  },
-        { "Strategy": "Spencer Grant",      "Value": 12,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Agustin Condra",     "Value": 38,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Adelaida Leeks",     "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Concepcion Fender",  "Value": 67,      "Diff": 3400,     "DiffPercent": 4000  },
-        { "Strategy": "Shaunta Bova",       "Value": 18,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Miguel Chickering",  "Value": 49,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Elliott Mailloux",   "Value": 42,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Deangelo Meachum",   "Value": 35,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Danyelle Coil",      "Value": 22,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Bryanna Neubauer",   "Value": 15,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Sharan Faught",      "Value": 84,      "Diff": 1200,     "DiffPercent": 90  },
-        { "Strategy": "Nereida Mcnulty",    "Value": 72,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Ahmed Runyon",       "Value": 64,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Debby Douville",     "Value": 79,      "Diff": 0,        "DiffPercent": 0  },
-        { "Strategy": "Stephine Robinett",  "Value": 81,      "Diff": 0,        "DiffPercent": 0  }
+        { "Strategy": "Private Debt",         "Baseline": 4610992.329,        "Comparison": 4000000.329,        "Diff": -610992.000,        "DiffPercent": -13.25 }
 ]

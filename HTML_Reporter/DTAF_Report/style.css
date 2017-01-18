@@ -5,7 +5,7 @@ Root Variables for all pages
 
 :root {
     --table-width: 1200px;
-    --table-height: 400px;
+    --table-height: 430px;
 	--matched-colour: darkblue;
 	--back-button-colour: var(--matched-colour);
 	--back-button-text-colour: white;
@@ -61,11 +61,10 @@ body {
 }
 
 .title {
+	position: relative;
+	margin: auto;
 	color: var(--heading-text-colour);
-	text-align: center;
 	font-size: 25px;
-	margin-left: 15em;
-	margin-right: 15em;
 	text-shadow: -1px -1px 1px var(--heading-dropshadow-highlight-colour),
 			 0px 4px 1px var(--heading-dropshadow-colour),
              4px 4px 5px var(--heading-dropshadow-colour),
@@ -73,32 +72,30 @@ body {
 }
 
 .version {
+	position: relative;
+	margin: auto;
 	color: var(--heading-text-colour);
-	text-align: center;
-	margin-left: 15em;
-	margin-right: 15em;
 }
 
 .businessdate {
+	position: relative;
+	margin: auto;
 	color: var(--heading-text-colour);
-	text-align: center;
-	margin-left: 15em;
-	margin-right: 15em;
 }
 
 .buttons {
-	align: center;
-	padding: 20px;
+	position: relative;
+	display: block;
+	margin: auto;
 	width: 100%;
 }
 
-/*.space {
+.space {
 	padding-bottom: 10px;
-}*/
+}
 
 a.matched, a.unmatched {
-	
-  	border-radius: 4px;
+  	border-radius: 6px;
 	background-color: var(--default-button-colour);
 	border: var(--button-border-colour);
 	color: var(--button-text-colour);
@@ -107,8 +104,7 @@ a.matched, a.unmatched {
 	overflow: hidden;
 	text-decoration: none;
 	font-size: 24px;
-  	padding: 15px 32px;
-  	width: 50%;
+  	width: 75%;
   	transition: all 0.5s;
   	cursor: pointer;
 }
@@ -170,15 +166,17 @@ Uses:
 	-Angular Styles
  */
 
-.table-1, .table-2, .table-3 {
+.table-1, .table-2, .table-3, .table-4 {
+	margin: auto;
     width: var(--table-width);
     height: var(--table-height);
 	background-color: var(--table-background-colour);
 }
 
 .tables {
-    position: absolute;
-    padding-left: 15em;
+    position: relative;
+	display: block;
+	margin: auto;
     height: var(--table-height);
 }
 
@@ -242,7 +240,7 @@ for nav menu
 
 nav.menu_nav {
 	position: relative;
-	padding-left: 175px;
+	margin: auto;
 	width: 75%;
 }
 

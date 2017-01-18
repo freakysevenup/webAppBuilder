@@ -14,6 +14,23 @@
 </div>
 <div class="businessdate"><h3>January 12th, 2017</h3>
 </div>
-<div ng-app="uigridApp"> <div ng-controller="uigridCtrl" class="tables"><div class="space"><div ui-grid="firstTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-1"></div></div><div class="space"><div ui-grid="secondTable" ng-show="showSecondTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-2"></div></div><div class="space"><div ui-grid="thirdTable" ng-show="showThirdTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav class="table-3"></div></div></div></div>
+<div ng-app="uigridApp" class="grid_div"> 
+    <div ng-controller="uigridCtrl" class="tables">
+        <div class="space">
+            <div ui-if="firstTable.data.length>0" ui-grid="firstTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav ui-grid-auto-resize class="table-1" ng-style="getFirstTableHeight()"></div>
+        </div>
+        <div class="space">
+            <div ui-if="secondTable.data.length>0" ui-grid="secondTable" ng-show="showSecondTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav ui-grid-auto-resize class="table-2" ng-style="getSecondTableHeight()"></div>
+        </div>
+        <div class="space">
+            <div ui-if="thirdTable.data.length>0" ui-grid="thirdTable" ng-show="showThirdTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav ui-grid-auto-resize class="table-3" ng-style="getThirdTableHeight()"></div>
+        </div>
+        <div class="space">
+            <div ui-if="fourthTable.data.length>0" ui-grid="fourthTable" ng-show="showFourthTable" ui-grid-pagination ui-grid-selection ui-grid-cellNav ui-grid-auto-resize class="table-4" ng-style="getFourthTableHeight()"></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+
+<!-- <div ui-if="gridData.data.length>0" id="grid1" ui-grid="gridData" class="grid" ui-grid-auto-resize ng-style="getTableHeight()"></div> -->
