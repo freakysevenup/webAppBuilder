@@ -1,0 +1,55 @@
+[
+            {   
+                "_comment_": "The report title, version and business date need to be included only once in the first element of the first array",
+                "reportTitle": "DTAF Regression Report",
+                "version": "Abacus Version 2.6.0 UAT Release",
+                "businessDate": "January 23rd, 2017",
+                "parent": "PV", 
+                "status": "unmatched",
+                "children": [ 
+                    { "child": "By Risk Hierarchy",         "index": "0",     "status": "matched" }, 
+                    { "child": "By Model Portfolio",        "index": "1",     "status": "unmatched" }, 
+                    { "child": "By Something",              "index": "2",     "status": "matched" },
+                    { "child": "By Something Else",         "index": "3",     "status": "matched" }]
+            },
+            { 
+                "_comment_": "This comment section will be ignored by the program, you can have only one per element and you have only one line to write a comment, so keep it simple.",
+                "parent": "FX", 
+                "status": "matched",
+                "children": [ 
+                    { "child": "By Risk Hierarchy",         "index": "4",     "status": "matched" }, 
+                    { "child": "By Model Portfolio",        "index": "5",     "status": "matched" }, 
+                    { "child": "By Something",              "index": "6",     "status": "matched" },
+                    { "child": "By Something Else",         "index": "7",     "status": "matched" }]
+            },
+            { 
+                "_comment_": "",
+                "parent": "VaR", 
+                "status": "matched",
+                "children": [ 
+                    { "child": "By Risk Hierarchy",         "index": "8",     "status": "matched" }, 
+                    { "child": "By Model Portfolio",        "index": "9",     "status": "matched" }, 
+                    { "child": "By Something",              "index": "10",     "status": "matched" },
+                    { "child": "By Something Else",         "index": "11",     "status": "matched" }]
+            },
+            { 
+                "_comment_": "",
+                "parent": "DV01", 
+                "status": "unmatched",
+                "children": [ 
+                    { "child": "By Risk Hierarchy",         "index": "12",     "status": "unmatched" }, 
+                    { "child": "By Model Portfolio",        "index": "13",     "status": "matched" }, 
+                    { "child": "By Something",              "index": "14",     "status": "matched" },
+                    { "child": "By Something Else",         "index": "15",     "status": "matched" }]
+            },
+            { 
+                "_comment_": "",
+                "parent": "CS01", 
+                "status": "unmatched",
+                "children": [ 
+                    { "child": "By Risk Hierarchy",         "index": "16",     "status": "matched" }, 
+                    { "child": "By Model Portfolio",        "index": "17",     "status": "matched" }, 
+                    { "child": "By Something",              "index": "18",     "status": "unmatched" },
+                    { "child": "By Something Else",         "index": "19",     "status": "matched" }]
+            }
+]

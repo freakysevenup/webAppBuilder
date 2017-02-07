@@ -1,0 +1,95 @@
+
+/*
+    Landing Page Button Style
+*/
+a.matched, a.unmatched {
+  	border-radius: 			6px;
+	background-color: 		var(--default-button-colour);
+	border: 				var(--button-border-colour);
+	color: 					var(--button-text-colour);
+  	text-align: 			center;
+	display: 				inline-block;
+	overflow: 				hidden;
+	text-decoration: 		none;
+	font-size: 				24px;
+  	width: 					50%;
+  	transition: 			all 0.5s;
+  	cursor: 				pointer;
+}
+
+a.matched {
+	background-color: 		var(--matched-colour);
+	color: 					var(--button-text-colour);
+}
+
+a.unmatched {
+	background-color: 		var(--unmatched-colour);
+	color: 					var(--button-text-colour);
+}
+
+a.matched:hover, a.unmatched:hover {
+	border: 				var(--button-border-hover-colour);
+}
+
+
+a:link {
+	color: 					white;
+	text-decoration: 		circle;
+	text-align: 			center;
+}
+
+/*
+for nav menu
+*/
+
+.menu_nav {
+	position: 				relative;
+	padding-top: 			1em;
+    right: 					1em;
+	margin: 				auto;
+	width: 					50%;
+}
+
+.menu_nav ul {
+	list-style: 			none;
+	width: 					100%;
+}
+
+.menu_nav a {
+	display: 				inline-block;
+	text-decoration: 		none;
+	transition: 			0.2s;
+	width: 					100%;
+}
+
+.menu_nav li#list_header:hover > a{
+	background-color: 		var(--cppib-core-brand-4515);
+	color: 					var(--cppib-core-brand-5473);
+	padding-bottom: 		2em;
+	text-align: 			center;
+	transition: 			0.2s;
+}
+
+.menu_nav ul ul{
+	display: 				inline-block;
+  	position: 				absolute;
+	width: 					75%;
+	visibility: 			hidden;
+	opacity: 				0;
+}
+
+.menu_nav li:hover > ul{
+	position: 				relative;
+	visibility: 			visible;
+	opacity: 				1;
+}
+
+.menu_nav li:hover > ul li{
+	display: 				inline-flex;
+	width: 					100%;
+	height: 				auto;
+	padding-bottom: 		5px;
+	position: 				relative;
+	visibility: 			visible;
+	opacity: 				1;
+}

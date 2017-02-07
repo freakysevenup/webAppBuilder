@@ -1,0 +1,71 @@
+[ {
+  "treeLevel" : 0,
+  "hierarchy" : "Top",
+  "name" : "Errors",
+  "bValue" : -40.0,
+  "cValue" : -17.0,
+  "diff" : -23.0,
+  "diffpercent" : 57.499,
+  "result" : "fail",
+  "comments" : "Vestibulum sed congue nisl Suspendisse arcu erat accumsan sit amet."
+}, {
+  "treeLevel" : 1,
+  "hierarchy" : "INVESTMENT_DEPT",
+  "name" : "IPC Active",
+  "bValue" : -40.0,
+  "cValue" : -17.0,
+  "diff" : -23.0,
+  "diffpercent" : 57.499,
+  "result" : "fail",
+  "comments" : "Praesent augue nunc molestie id finibus ut cursus porttitor lacus."
+}, {
+  "treeLevel" : 2,
+  "hierarchy" : "INVESTMENT_STRAT",
+  "name" : "CLG",
+  "bValue" : -40.0,
+  "cValue" : -17.0,
+  "diff" : -23.0,
+  "diffpercent" : 57.499,
+  "result" : "fail",
+  "comments" : "Vestibulum sed congue nisl Suspendisse arcu erat accumsan sit amet."
+}, {
+  "treeLevel" : 3,
+  "hierarchy" : "PROGRAM",
+  "name" : "Funding",
+  "bValue" : -40.0,
+  "cValue" : -17.0,
+  "diff" : -23.0,
+  "diffpercent" : 57.499,
+  "result" : "fail",
+  "comments" : "Praesent augue nunc molestie id finibus ut cursus porttitor lacus."
+}, {
+  "treeLevel" : 4,
+  "hierarchy" : "SUB_PROGRAM",
+  "name" : "Other Funding",
+  "bValue" : -40.0,
+  "cValue" : -17.0,
+  "diff" : -23.0,
+  "diffpercent" : 57.499,
+  "result" : "fail",
+  "comments" : "Vestibulum sed congue nisl Suspendisse arcu erat accumsan sit amet."
+}, {
+  "treeLevel" : 5,
+  "hierarchy" : "MODEL_PORTFOLIO",
+  "name" : "CLG2",
+  "bValue" : -15.0,
+  "cValue" : -7.0,
+  "diff" : -8.0,
+  "diffpercent" : 53.333,
+  "result" : "fail",
+  "comments" : "Praesent augue nunc molestie id finibus ut cursus porttitor lacus."
+}, {
+  "treeLevel" : 5,
+  "hierarchy" : "MODEL_PORTFOLIO",
+  "name" : "CLG3",
+  "bValue" : -25.0,
+  "cValue" : -10.0,
+  "diff" : -15.0,
+  "diffpercent" : 60.0,
+  "result" : "fail",
+  "comments" : "Vestibulum sed congue nisl Suspendisse arcu erat accumsan sit amet."
+} ]

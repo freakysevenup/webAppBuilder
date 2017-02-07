@@ -1,0 +1,115 @@
+/*
+Root Variables for all pages
+*/
+
+:root {
+    --table-width: 						1200px;
+    --table-height: 					430px;
+	--matched-colour: 					darkblue;
+	--back-button-colour: 				var(--cppib-core-brand-4515);
+	--back-button-text-colour: 			var(--cppib-core-brand-5473);
+	--back-button-border-colour: 		var(--cppib-core-brand-cool-gray-8);
+	--back-button-border-hover-colour: 	var(--cppib-core-brand-accent-457);
+	--unmatched-colour: 				red;
+	--default-button-colour: 			white;
+	--button-border-colour: 			1px solid black;
+	--button-border-hover-colour: 		1px solid white;
+	--button-text-colour: 				white;
+	--button-text-hover-colour: 		black;
+	--heading-text-colour: 				#1F1185;
+	--table-background-colour: 			white;
+
+	/*
+	 CPPIB core colour styling guide reccomendations
+	*/
+	--cppib-core-brand-5473: 			#115e67;
+	--cppib-core-brand-4515: 			#b3a369;
+	--cppib-core-brand-5467: 			#1b332f;
+	--cppib-core-brand-cool-gray-8: 	#88888d;
+	--cppib-core-brand-accent-549: 		#6ba4b8;
+	--cppib-core-brand-accent-718: 		#be4d00;
+	--cppib-core-brand-accent-457: 		#b89d18;
+	--cppib-core-brand-accent-5265: 	#403a60;
+}
+
+/*
+Landing Page
+Uses:
+	-Buttons
+	-Headings
+	-Backgrounds
+	-Animations
+*/
+
+body {
+	width: 				auto;
+	height: 			auto;
+	margin: 			0;
+	padding: 			0;
+	font-size: 			12px;
+	background-color: 	white;
+	text-align: 		center;
+	font-family: 		"Arial Black", Gadget, sans-serif;
+	color: 				var(--cppib-core-brand-5473);
+}
+
+.top_bar_header {
+	background-color: 	white;
+	border: 			var(--button-border-colour);
+	width: 				100%;
+	height: 			125px;
+	display: 			flex;
+	justify-content: 	center;
+}
+
+.top_bar_header_text {
+	position: 			relative;
+	width: 				auto; 
+	height: 			auto;
+	margin: 			auto;
+}
+
+.top_bar_page_title {
+	position: 			relative;
+	margin: 			auto;
+	color: 				var(--cppib-core-brand-5467);
+	font-size: 			25px;
+}
+
+.top_bar_page_title p{
+	margin: 			auto;
+}
+
+.top_bar_page_version {
+	position: 			relative;
+	padding-top: 		-10px;
+	margin: 			auto;
+	font-size: 			20px;
+	color: 				var(--cppib-core-brand-5467);
+}
+
+.top_bar_page_version p{
+	margin: 			auto;
+}
+
+.top_bar_page_businessdate {
+	position: 			relative;
+	margin: 			auto;
+	font-size: 			15px;
+	color: 				var(--cppib-core-brand-5467);
+}
+
+.top_bar_page_businessdate p{
+	margin: 			auto;
+}
+
+.buttons {
+	position: 			relative;
+	display: 			block;
+	margin: 			auto;
+	width: 				50%;
+}
+
+.space {
+	padding-bottom: 	10px;
+}

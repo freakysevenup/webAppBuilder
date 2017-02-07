@@ -1,0 +1,90 @@
+/* 
+Validation Pages
+Uses:
+	-Backbutton
+	-UiGrid Styles
+	-Angular Styles
+ */
+
+.table-1, .table-2, .table-3, .table-4 {
+	margin: 			auto;
+    width: 				var(--table-width);
+    height: 			var(--table-height);
+	background-color: 	var(--table-background-colour);
+}
+
+.tables {
+    position: 			relative;
+	display: 			block;
+	margin: 			auto;
+    height: 			var(--table-height);
+	font-size: 			12px;
+}
+
+.ui-grid-row .ui-grid-cell {
+   background-color: inherit !important;
+}
+
+.green {
+  background-color: #2dff07 !important;
+  color: red !important;
+}
+
+.blue {
+  background-color: #1fe0f0 !important;
+  color: #153ff0 !important;
+}
+
+.backbutton {
+	padding-bottom: 	10px;
+}
+
+a.button {
+    border-radius: 		4px;
+	background-color: 	var(--back-button-colour);
+	border: 			var(--back-button-border-colour);
+	color: 				var(--back-button-text-colour);
+  	text-align: 		center;
+	display: 			inline-block;
+	overflow: 			hidden;
+	text-decoration: 	none;
+	font-size: 			24px;
+  	padding: 			5px 15px;
+  	width: 				8%;
+  	transition: 		all 0.5s;
+  	cursor: 			pointer;
+  	margin: 			5px;
+}
+
+a.button span {
+    cursor: 			pointer;
+    display: 			inline-block;
+    position: 			relative;
+    transition: 		0.5s;
+}
+
+a.button span:after {
+    content: 			'\00AB';
+    position: 			absolute;
+    opacity: 			0;
+    top: 				0;
+    left: 				-20px;
+    transition: 		0.1s;
+}
+
+a.button:hover span{
+    padding-left: 		25px;
+}
+
+a.button:hover span:after {
+    opacity: 			1;
+    left: 				0;
+}
+
+a.button:hover {
+	border: 			var(--back-button-border-hover-colour);
+}
+
+.aligner {
+    text-align: 		left;
+}

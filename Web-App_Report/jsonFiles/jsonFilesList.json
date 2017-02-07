@@ -1,0 +1,8 @@
+[
+    { 
+        "filePath" : "./jsonFiles/TempJson.json"
+    },
+    {
+        "filePath" : "./jsonFiles/other.json"
+    }
+]
